@@ -2,11 +2,11 @@ package BaekJoon_Java;
 
 import java.util.Scanner;
 
-public class N3003_ChessPiece {
+public class Main {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-        
+		
+	Scanner sc = new Scanner(System.in);
         int[] chess = {1, 1, 2, 2, 2, 8};
         String input = sc.nextLine();
         String[] arr = input.split(" ");
@@ -15,7 +15,8 @@ public class N3003_ChessPiece {
         for(int i=0; i<output.length; i++){
         	output[i] = chess[i] - Integer.parseInt(arr[i]);
         	System.out.print(output[i]+" ");
-        }
+	}
+	
 	}
 
 }
